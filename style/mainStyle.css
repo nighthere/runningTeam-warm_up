@@ -7,7 +7,7 @@ html, body {
     Main Style
 ********************/
 body {
-    background-image: url("../Img/bg04.jpg");
+    background-image: url("../Img/bg01.jpg");
     -moz-background-size:cover;
     -webkit-background-size:cover;
     -o-background-size:cover;
@@ -44,9 +44,7 @@ body {
 /********** Team **********/
 .main-Main {
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 60px;
+    margin: 0 auto;
 }
 
 .main-Team {
@@ -62,24 +60,7 @@ body {
 }
 
 .team-Right{
-    width: 55%;
-    height: 380px;
-    margin: 10px;
-    float: right;
-    background-image: url("../Img/team.png");
-    -moz-background-size: 100%;
-    -webkit-background-size:100%;
-    -o-background-size:100%;
-    background-size:100%;
-}
-
-.team-Details {
-    width: 100%;
-    font-size: 20px;
-    color: #d8494b;
-    text-align: center;
-    position: relative;
-    top: 80%;
+    width: 60%;
 }
 
 .team-1,
@@ -118,3 +99,38 @@ body {
 .main-Members {
 
 }
+
+
+.personalInformation{
+   opacity: 0;
+    width: 200px;
+    height: 200px;
+}
+
+
+.informaiton{
+    background-color: white;
+    color: black;
+    width: 182px;
+    height:182px;
+}
+
+#one{
+    background-image: url("../Img/Phlicess.png");
+    background-size: 190px 190px;
+}
+
+#two{
+    background-image: url("../Img/bg02.png");
+    background-size: 190px 190px;
+}
+#there{
+    background-image: url("../Img/bg03.jpg");
+    background-size: 190px 190px;
+}
+#four{
+    background-image: url("../Img/bg04.jpg");
+    background-size: 190px 190px;
+}
+
+
